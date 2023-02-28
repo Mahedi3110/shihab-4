@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #3525af, #9153c9);
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.subjects:hover {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}

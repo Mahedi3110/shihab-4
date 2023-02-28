@@ -232,3 +232,18 @@ body {
     height: 90%;
     background: #9153c9;
 }
+
+button {
+    background: linear-gradient(to right, #3525af, #9153c9);
+    border: none;
+    position: absolute;
+    right: 25%;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
